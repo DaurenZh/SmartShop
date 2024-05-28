@@ -3,7 +3,7 @@ import heart from './../../images/icons/arcticons--heart.svg'
 import cart from './../../images/icons/mdi-light--cart.svg'
 import './navbar.css'
 import { NavLink } from "react-router-dom";
-import { ABOUT_ROUTE, BASKET_ROUTE, CATEGORIES_ROUTE, CONTACTS_ROUTE, PARTNER_ROUTE, SHOP_ROUTE, FAV_ROUTE, } from "../../utils/consts";
+import { ABOUT_ROUTE, BASKET_ROUTE, CATEGORIES_ROUTE, CONTACTS_ROUTE, PARTNER_ROUTE, SHOP_ROUTE, FAV_ROUTE, LOGIN_ROUTE } from "../../utils/consts";
 
 function Navbar() {
   return (
