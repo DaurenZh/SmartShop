@@ -13,7 +13,7 @@ import {observer} from "mobx-react-lite";
 import {Context} from "./index";
 import {check} from "./http/userAPI";
 import React, {useContext, useEffect, useState} from 'react';
-import AppRouter from "./components/AppRouter";
+import AppRouter from "./Components/navbar/AppRouter";
 
 
 const App = observer(() => {
