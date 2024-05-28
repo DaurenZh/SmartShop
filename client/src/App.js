@@ -11,7 +11,7 @@ import Favorites from "./pages/Favorites";
 import Reg from "./pages/Reg";
 import {observer} from "mobx-react-lite";
 import {Context} from "./index";
-import {check} from "./http/userAPI";
+import {check} from "./http/userAPI_check";
 import React, {useContext, useEffect, useState} from 'react';
 import AppRouter from "./Components/navbar/AppRouter";
 
