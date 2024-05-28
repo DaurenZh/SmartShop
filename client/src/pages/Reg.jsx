@@ -24,6 +24,7 @@ const Reg = () => {
       <div className='frame-5bek'>
         <div className='vectorok' />
       </div>
+      
     </div>
       
     <div className='frame-6ok' />

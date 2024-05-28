@@ -48,6 +48,9 @@ const Auth = observer(() => {
         <div className='frame-5bek'>
           <div className='vectorok' />
         </div>
+        <button className='rectangle-buttonbek'>
+        <span className='send-nowbek'>Create Account</span>
+      </button>
       </div>
       
       <div className='frame-6ok' />
