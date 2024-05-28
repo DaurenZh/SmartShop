@@ -1,5 +1,5 @@
 import React, {useContext, useState} from 'react';
-import {NavLink, useLocation, useHistory} from "react-router-dom";
+import {NavLink, useLocation, useNavigate} from "react-router-dom";
 import {LOGIN_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE} from "../utils/consts";
 import {login} from "../http/userAPI";
 import {registration} from "../http/userAPI";
@@ -10,7 +10,7 @@ import './auth.css'
 const Auth = observer(() => {
     const {user} = useContext(Context)
     const location = useLocation()
-    const history = useHistory()
+    const history = useNavigate()
     const isLogin = location.pathname === LOGIN_ROUTE
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -49,7 +49,7 @@ const Auth = observer(() => {
           <div className='vectorok' />
         </div>
         <button className='rectangle-buttonbek'>
-        <span className='send-nowbek'>Create Account</span>
+        <NavLink className='send-nowbek' to={REGISTRATION_ROUTE}>Create Account</NavLink>
       </button>
       </div>
       

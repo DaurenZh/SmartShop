@@ -1,11 +1,11 @@
 import React, {useContext, useEffect, useState} from 'react';
 import Modal from "react-bootstrap/Modal";
 import {Button, Dropdown, Form, Row, Col} from "react-bootstrap";
-import {Context} from "../../index";
-import {createProduct, fetchBrands, fetchProducts, fetchTypes} from "../../http/productAPI";
+import {Context} from "../../../index";
+import {createProduct, fetchBrands, fetchProducts, fetchTypes} from "../../../http/productAPI";
 import {observer} from "mobx-react-lite";
 
-const createProduct = observer(({show, onHide}) => {
+const СreateProduct = observer(({show, onHide}) => {
     const {product} = useContext(Context)
     const [name, setName] = useState('')
     const [price, setPrice] = useState(0)
@@ -36,10 +36,10 @@ const createProduct = observer(({show, onHide}) => {
         formData.append('name', name)
         formData.append('price', `${price}`)
         formData.append('img', file)
-        formData.append('brandId', device.selectedBrand.id)
-        formData.append('typeId', device.selectedType.id)
+        formData.append('brandId', product.selectedBrand.id)
+        formData.append('typeId', product.selectedType.id)
         formData.append('info', JSON.stringify(info))
-        createDevice(formData).then(data => onHide())
+        createProduct(formData).then(data => onHide())
     }
 
     return (
@@ -50,7 +50,7 @@ const createProduct = observer(({show, onHide}) => {
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    Добавить устройство
+                    Добавить продукт
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -136,10 +136,10 @@ const createProduct = observer(({show, onHide}) => {
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="outline-danger" onClick={onHide}>Закрыть</Button>
-                <Button variant="outline-success" onClick={addDevice}>Добавить</Button>
+                <Button variant="outline-success" onClick={addProduct}>Добавить</Button>
             </Modal.Footer>
         </Modal>
     );
 });
 
-export default CreateDevice;
+export default createProduct;
