@@ -1,8 +1,8 @@
 import React, {useContext, useState} from 'react';
 import {NavLink, useLocation, useHistory} from "react-router-dom";
 import {LOGIN_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE} from "../utils/consts";
-import {login} from "../http/userAPI_login";
-import {registration} from "../http/userAPI_reg";
+import {login} from "../http/userAPI";
+import {registration} from "../http/userAPI";
 import {observer} from "mobx-react-lite";
 import {Context} from "../index";
 import './auth.css'
