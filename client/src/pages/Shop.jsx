@@ -6,6 +6,7 @@ import categ from './../images/Catergory card.svg'
 function Shop() {
   return (
     <>
+      <div className="container">
       <section className="popular-sales"> 
         <h2 className="headingbek">Popular Sales</h2> 
             <div className="view-more-containerbek"> 
@@ -71,6 +72,7 @@ function Shop() {
             alt="eg"
           />
         </div>
+      </div>
       </div>
       </>
   )
