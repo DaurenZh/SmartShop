@@ -1,0 +1,639 @@
+.pseudo {
+    height: 16px;
+    width: 2px;
+    position: relative;
+    background-color: var(--main);
+  }
+  .category {
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 74px;
+  }
+  .heading-6 {
+    width: 269.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-6xs);
+    font-size: var(--font-size-base);
+    color: var(--color-darkslategray);
+  }
+  .reset,
+  .selected {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 71px;
+  }
+  .reset {
+    min-width: 39px;
+    flex-shrink: 0;
+    debug_commit: 69da668;
+  }
+  .link {
+    border-bottom: 1px solid var(--color-dimgray);
+    padding: 0;
+    opacity: 0.7;
+  }
+  .divfacets-header,
+  .link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .span-field {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .span-field-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+  }
+  .air-fryer {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 60px;
+  }
+  .spanfilter-name {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 60px;
+  }
+  .checkbox-separators {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 18px;
+  }
+  .item-label {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 20px;
+  }
+  .span-field1 {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .span-field-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+  }
+  .air-fryer1 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 60px;
+  }
+  .spanfilter-name1 {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .div {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 18px;
+    flex-shrink: 0;
+  }
+  .item-label1 {
+    width: 297.8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+  }
+  .span-field2 {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .span-field-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+  }
+  .air-fryer2 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 60px;
+  }
+  .spanfilter-name2 {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .div1 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 18px;
+  }
+  .item-label2 {
+    width: 309px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-2xl) 0 0;
+    box-sizing: border-box;
+  }
+  .span-field3 {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+  }
+  .air-fryer3 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 84px;
+  }
+  .spanfilter-name3 {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .div2 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 18px;
+  }
+  .item-label3 {
+    width: 297px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+  }
+  .span-field4 {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .span-field-wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+  }
+  .air-fryer4 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 57px;
+  }
+  .spanfilter-name4 {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .div3 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 18px;
+  }
+  .item-label4 {
+    width: 297px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+  }
+  .span-field5 {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .span-field-wrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+  }
+  .air-fryer5 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 113px;
+  }
+  .spanfilter-name5 {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .div4 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 18px;
+  }
+  .item-label5 {
+    width: 297px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+  }
+  .span-field6 {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .span-field-wrapper3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+  }
+  .air-fryer6 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 81px;
+  }
+  .spanfilter-name6 {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .div5 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 18px;
+  }
+  .item-label6 {
+    width: 297px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+  }
+  .span-field7 {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .span-field-wrapper4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+  }
+  .air-fryer7 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 60px;
+  }
+  .spanfilter-name7 {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .div6 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 18px;
+    flex-shrink: 0;
+  }
+  .divshop-sidebar1,
+  .item-label7,
+  .list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .item-label7 {
+    width: 297.8px;
+    flex-direction: row;
+    padding: 0 var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+  }
+  .divshop-sidebar1,
+  .list {
+    flex-direction: column;
+  }
+  .list {
+    align-self: stretch;
+    padding: 0;
+    gap: var(--gap-mini);
+  }
+  .divshop-sidebar1 {
+    width: 288px;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+    gap: var(--gap-11xl);
+  }
+  .price,
+  .pseudo1 {
+    position: relative;
+  }
+  .pseudo1 {
+    height: 16px;
+    width: 2px;
+    background-color: var(--color-goldenrod);
+  }
+  .price {
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 41px;
+  }
+  .heading-61 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    font-size: var(--font-size-base);
+    color: var(--color-darkslategray);
+  }
+  .reset1,
+  .the-highest-price {
+    position: relative;
+    letter-spacing: 0.5px;
+  }
+  .reset1 {
+    display: inline-block;
+    min-width: 39px;
+    flex-shrink: 0;
+    debug_commit: 69da668;
+  }
+  .divfacets-header1,
+  .link1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .link1 {
+    border-bottom: 1px solid var(--color-dimgray);
+    padding: 0;
+    opacity: 0.7;
+  }
+  .divfacets-header1 {
+    row-gap: 20px;
+  }
+  .divprice-range-group {
+    align-self: stretch;
+    height: 2px;
+    position: relative;
+    background: linear-gradient(90deg, #e2e2e2, #333, #333, #e2e2e2);
+  }
+  .input-separators,
+  .price-input-fields {
+    position: relative;
+    display: inline-block;
+    min-width: 8px;
+  }
+  .input-separators {
+    letter-spacing: 0.5px;
+  }
+  .price-input-fields {
+    text-align: right;
+  }
+  .label-from {
+    position: absolute;
+    margin: 0 !important;
+    top: -14px;
+    left: 1px;
+    font-size: var(--font-size-2xs);
+    letter-spacing: 0.5px;
+    display: inline-block;
+    opacity: 0.7;
+    min-width: 29.3px;
+  }
+  .divprice-range-input {
+    flex: 1;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-4xs) var(--padding-mid) var(--padding-4xs)
+      var(--padding-mini);
+    position: relative;
+    min-width: 90px;
+    gap: var(--gap-xl);
+  }
+  .div7 {
+    position: relative;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    min-width: 6px;
+  }
+  .price-input-suffix {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-4xs) 0 0;
+    font-size: var(--font-size-base);
+    color: var(--color-darkslategray);
+  }
+  .div8 {
+    position: relative;
+    letter-spacing: 0.5px;
+    min-width: 8px;
+  }
+  .div8,
+  .div9,
+  .label-to {
+    display: inline-block;
+  }
+  .div9 {
+    position: relative;
+    text-align: right;
+    min-width: 15px;
+  }
+  .label-to {
+    position: absolute;
+    margin: 0 !important;
+    top: -14px;
+    left: 1px;
+    font-size: var(--font-size-2xs);
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+    min-width: 14px;
+  }
+  .divprice-range-input1 {
+    flex: 1;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-4xs) var(--padding-mid) var(--padding-4xs)
+      var(--padding-mini);
+    position: relative;
+    min-width: 90px;
+    gap: var(--gap-xl);
+  }
+  .divprice-input-group,
+  .divshop-sidebar,
+  .price-range {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs-9);
+  }
+  .divshop-sidebar,
+  .price-range {
+    flex-direction: column;
+    gap: var(--gap-11xl);
+    font-size: var(--font-size-smi);
+  }
+  .divshop-sidebar {
+    border-top: 1px solid var(--color-white);
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-dimgray);
+    font-family: var(--font-open-sans);
+  }
+  @media screen and (max-width: 450px) {
+    .checkbox-separators {
+      width: 100%;
+      height: 18px;
+    }
+    .divfacets-header1 {
+      flex-wrap: wrap;
+    }
+    .divprice-range-input,
+    .divprice-range-input1 {
+      flex: 1;
+    }
+    .divprice-input-group {
+      flex-wrap: wrap;
+    }
+  }
+  

@@ -1,0 +1,206 @@
+.cartka {
+  padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .cart-headerka {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 16px 40px;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid rgba(229, 231, 235, 1);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+  }
+  .cart-headerka h4 {
+    flex: 1;
+    font-family: "Inter", sans-serif;
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .cart-headerka {
+      padding: 0 20px;
+      flex-wrap: wrap;
+    }
+  }
+  .cart-itemka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 135px;
+    padding: 17px 40px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(229, 231, 235, 1);
+
+  }
+  @media (max-width: 991px) {
+    .cart-itemka {
+      padding: 0 20px;
+      flex-wrap: wrap;
+    }
+  }
+  .item-infoka {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .image-wrapperka {
+    position: relative;
+    display: flex;
+    width: 78px;
+    aspect-ratio: 1;
+    border: 1px solid rgba(237, 237, 237, 1);
+    padding: 1px;
+    overflow: hidden;
+  }
+  .imgka{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .item-nameka {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    margin: auto 0;
+  }
+  .item-priceka, .item-totalka {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6b7280;
+    text-align: center;
+    margin: auto 0;
+  }
+  .quantity-selectka {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+    padding: 8px 27px;
+    border: 1px solid rgba(239, 239, 239, 1);
+  }
+  @media (max-width: 991px) {
+    .quantity-selectka {
+      padding: 0 20px;
+      white-space: initial;
+    }
+  }
+  .quantity-controlska {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 7px 0;
+  }
+
+  @media (max-width: 991px) {
+    .cartka {
+        flex-direction: column;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .quantity-controlska {
+      white-space: initial;
+    }
+  }
+  .quantity-controlska button {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+  }
+  .quantity-controlska span {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #222;
+  }
+  .remove-buttonka {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+  }
+  .remove-iconka {
+    width: 10px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+  }
+
+
+  .summary-container {
+    background-color: #f6f6f6;
+    border-radius: 3px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    display: flex;
+    max-width: 382px;
+    flex-direction: column;
+    padding: 12px 31px 26px;
+    margin-left: 20px;
+    
+  }
+  .total-amount {
+    display: flex;
+    padding-right: 12px;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: 150%;
+  }
+  .total-text,
+  .total-price {
+    font-family: Inter, sans-serif;
+  }
+  .total-text {
+    color: #222;
+  }
+  .total-price {
+    color: var(--price-color, #ef8f00);
+  }
+  .discount-form {
+    display: flex;
+    margin-top: 28px;
+    flex-direction: column;
+    font-size: 14px;
+    color: #9ca3af;
+    font-weight: 400;
+    justify-content: center;
+  }
+  .discount-label {
+    font-family: Inter, sans-serif;
+  }
+  .discount-input {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px 24px;
+    border: 1px #fff;
+    margin-top: 8px;
+  }
+  .checkout-button {
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: var(--main, #ffb321);
+    margin-top: 28px;
+    color: var(--text-color, #000);
+    text-align: center;
+    padding: 15px 60px;
+    font: 600 15px/133% Inter, -apple-system, Roboto, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+
+  .cart-items-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

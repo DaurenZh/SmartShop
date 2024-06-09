@@ -7,31 +7,7 @@ import {observer} from "mobx-react-lite";
 import {Context} from "../index";
 import './auth.css'
 
-const Auth = observer(() => {
-    const {user} = useContext(Context)
-    const location = useLocation()
-    const history = useNavigate()
-    const isLogin = location.pathname === LOGIN_ROUTE
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
-
-    const click = async () => {
-        try {
-            let data;
-            if (isLogin) {
-                data = await login(email, password);
-            } else {
-                data = await registration(email, password);
-            }
-            user.setUser(user)
-            user.setIsAuth(true)
-            history.push(SHOP_ROUTE)
-        } catch (e) {
-            alert(e.response.data.message)
-        }
-
-    }
-
+function Auth(){
     return (
     <div className='main-containerkak'>
       <div className='frame-1kik'>
@@ -56,6 +32,6 @@ const Auth = observer(() => {
       <div className='frame-6ok' />
     </div>
     );
-});
+}
 
 export default Auth;

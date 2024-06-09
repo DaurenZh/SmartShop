@@ -4,10 +4,10 @@ import './partner.css'
 const Partner = () => {
     return (
         <>
-        <div className='div-framekak'>
-        <span className='span-contactkak'>Become a partner</span>
-      </div>
-        <div className='main-containerkak'>
+      <section className="about-section">
+        <h1>Become a Partner</h1>
+      </section>
+      <div className='main-containerkak'>
       <div className='frame-1kik'>
         <span className='first-namebek'>Frist Name*</span>
         <div className='rectanglebek' />

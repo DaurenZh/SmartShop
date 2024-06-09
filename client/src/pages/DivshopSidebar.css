@@ -1,0 +1,110 @@
+.pseudo2,
+.tags {
+  position: relative;
+}
+.pseudo2 {
+  height: 16px;
+  width: 2px;
+  background-color: var(--color-goldenrod);
+}
+.tags {
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 37px;
+}
+.heading-62 {
+  width: 289.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+}
+.reset2,
+.selected1 {
+  position: relative;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  min-width: 71px;
+}
+.reset2 {
+  min-width: 39px;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.link2 {
+  border-bottom: 1px solid var(--color-dimgray);
+  padding: 0;
+  opacity: 0.7;
+}
+.divfacets-header2,
+.link2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.span-field8 {
+  width: 17px;
+  height: 17px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.span-field-wrapper5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+}
+.air-fryer8 {
+  position: relative;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  min-width: 74px;
+}
+.spanfilter-name8 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 74px;
+}
+.tag-separator {
+  position: relative;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  min-width: 27px;
+}
+.divshop-sidebar2,
+.item-label8 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.item-label8 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.divshop-sidebar2 {
+  flex-direction: column;
+  padding: var(--padding-12xl) 0 0;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+  font-family: var(--font-open-sans);
+}

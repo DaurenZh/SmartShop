@@ -7,7 +7,7 @@ import { ABOUT_ROUTE, BASKET_ROUTE, CATEGORIES_ROUTE, CONTACTS_ROUTE, PARTNER_RO
 
 function Navbar() {
   return (
-    <header className="header">
+    <header>
       <div className="header-wrapper">
         <div className="logo-container">
           <img
@@ -65,7 +65,32 @@ function Navbar() {
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-wrapper">
+      <nav className="fl">
+        <NavLink href="#categories" className="nav-link" to={CATEGORIES_ROUTE}>
+          <div>Categories</div>
+        </NavLink>
+        <NavLink href="about.jsx" className="nav-link" to={ABOUT_ROUTE}>
+          <div>About</div>
+        </NavLink>
+        <NavLink href="#contacts" className="nav-link" to={CONTACTS_ROUTE}>
+          <div>Contacts</div>
+        </NavLink>
+      </nav>
+      <nav>
+      <NavLink href="#partner" className="partner-link" to={PARTNER_ROUTE}>
+        <div className="pad">
+          Become a partner
+          <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/93e32f5e385847444c5cf4e6cf14f2fc7b9b448bb50d839d387bc9b03ccf4bd1?apiKey=145a614dc8264552af1ec45aa2fef7a9&"
+              className="partner-icon"
+              loading="lazy"
+              alt="Partner"
+          />
+      </div>
+      </NavLink>
+      </nav>
+
+      {/* <div className="footer-wrapper">
         <nav className="nav-links">
           <NavLink href="#categories" className="nav-link" to={CATEGORIES_ROUTE}>
             Categories
@@ -88,7 +113,7 @@ function Footer() {
             alt="Partner"
           />
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 }
@@ -98,6 +123,7 @@ export default function Components() {
     <>
       <Navbar />
       <main>
+      {/* <div className="col">fdsfsdf</div> */}
         <Footer />
       </main>
     </>

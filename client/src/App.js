@@ -30,7 +30,7 @@ const App = observer(() => {
   return (
     <BrowserRouter>
       <Navbar/>
-        <Routes>
+       <Routes>
           <Route path="/" element={<Shop/> } />
           <Route path="/categories" element={<Categories/>} />
           <Route path="/about" element={<About/>}/>

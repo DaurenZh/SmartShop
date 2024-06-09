@@ -4,9 +4,9 @@ import './Contacts.css'
 const Contacts = () => {
     return (
         <>
-<div className='div-frame-11'>
-        <span className='span-contact'>Contact</span>
-      </div>
+      <section className="about-section">
+        <h1>Contact</h1>
+      </section>
       <div className='div-frame-12'>
         <div className='div-frame-13'>
           <div className='div-frame-14'>
