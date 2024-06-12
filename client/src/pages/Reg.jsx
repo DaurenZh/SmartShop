@@ -16,6 +16,10 @@ const Reg = () => {
           <input className='rectanglebek' />
           <span className='email-addressbek'>Email Address*</span>
           <input className='rectangle-2bek' />
+          <span className='email-addressbek'>Phone*</span>
+          <input className='rectangle-2bek' />
+          <span className='email-addressbek'>Country*</span>
+          <input className='rectangle-2bek' />
       </form>
       <button className='rectangle-buttonbek'>
         <span className='send-nowbek'>Create Account</span>

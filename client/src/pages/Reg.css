@@ -208,7 +208,7 @@
     position: absolute;
     height: 51px;
     top: 40px;
-    left: calc(50% - 16px);
+    left: calc(50% - 120px);
     color: #222222;
     font-family: Inter, var(--default-font-family);
     font-size: 34px;

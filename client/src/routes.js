@@ -1,5 +1,5 @@
 import Admin from "./pages/Admin"
-import { ADMIN_ROUTE, BASKET_ROUTE, PRODUCT_ROUTE, LOGIN_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE, ABOUT_ROUTE, CONTACTS_ROUTE, CATEGORIES_ROUTE, PARTNER_ROUTE, FAV_ROUTE} from "./utils/consts"
+import { ADMIN_ROUTE, BASKET_ROUTE, PRODUCT_ROUTE, LOGIN_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE, ABOUT_ROUTE, CONTACTS_ROUTE, CATEGORIES_ROUTE, PARTNER_ROUTE, FAV_ROUTE, INFO_ROUTE} from "./utils/consts"
 import Basket from "./pages/Basket"
 import Shop from "./pages/Shop"
 import Auth from "./pages/Auth"
@@ -10,6 +10,7 @@ import About from "./pages/About"
 import Reg from "./pages/Reg"
 import Partner from "./pages/Partner"
 import Favorites from "./pages/Favorites"
+import Info from "./pages/Info"
 import { Component } from "react"
 
 export const authRoutes = [
@@ -59,5 +60,11 @@ export const publicRoutes = [
     {
         path: PARTNER_ROUTE,
         Component: <Partner/>
+        
+    },
+    {
+        path: INFO_ROUTE,
+        Component: <Info/>
+        
     },
 ]

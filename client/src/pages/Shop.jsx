@@ -1,7 +1,8 @@
 import React from "react";
 import './Shop.css'
-import card from './../images/Sale card.svg'
 import categ from './../images/Catergory card.svg'
+import { NavLink } from "react-router-dom";
+import { PRODUCT_ROUTE } from "./../utils/consts";
 
 function Shop() {
   return (
@@ -14,64 +15,76 @@ function Shop() {
         </div> 
       </section> 
       <div className="popularbek">
-        <div className="cards">
-          <img
-            loading="lazy"
-            src={card}
-            className="canopolyhan"
-            alt="cat"
-          />
-          <img
-            loading="lazy"
-            src={card}
-            className="canopolyhan"
-            alt="cat"
-          />
-          <img
-            loading="lazy"
-            src={card}
-            className="canopolyhan"
-            alt="cat"
-          />
-          <img
-            loading="lazy"
-            src={card}
-            className="canopolyhan"
-            alt="cat"
-          />
-        </div>
+          <NavLink to={PRODUCT_ROUTE}>
+            <img
+              loading="lazy"
+              src={categ}
+              className="canopolyhan"
+              alt="cat"
+            />
+          </NavLink>
+          <NavLink to={PRODUCT_ROUTE}>
+            <img
+              loading="lazy"
+              src={categ}
+              className="canopolyhan"
+              alt="cat"
+            />
+          </NavLink>
+          <NavLink to={PRODUCT_ROUTE}>
+            <img
+              loading="lazy"
+              src={categ}
+              className="canopolyhan"
+              alt="cat"
+            />
+          </NavLink>
+          <NavLink to={PRODUCT_ROUTE}>
+            <img
+              loading="lazy"
+              src={categ}
+              className="canopolyhan"
+              alt="cat"
+            />
+          </NavLink>
       </div>
       <header className="headerbek">
         <h1 className="titlebek">Categories</h1>
       </header>
       <div className="popularbek">
-        <div className="cardsbek">
-          <img
-            loading="lazy"
-            src={categ}
-            className="canopolybek"
-            alt="eg"
-          />
-          <img
-            loading="lazy"
-            src={categ}
-            className="canopolybek"
-            alt="eg"
-          />
-          <img
-            loading="lazy"
-            src={categ}
-            className="canopolybek"
-            alt="eg"
-          />
-          <img
-            loading="lazy"
-            src={categ}
-            className="canopolybek"
-            alt="eg"
-          />
+          <NavLink to={PRODUCT_ROUTE}>
+            <img
+              loading="lazy"
+              src={categ}
+              className="canopolybek"
+              alt="eg"
+            />
+          </NavLink>
+          <NavLink to={PRODUCT_ROUTE}>
+            <img
+              loading="lazy"
+              src={categ}
+              className="canopolybek"
+              alt="eg"
+            />
+          </NavLink>
+          <NavLink to={PRODUCT_ROUTE}>
+            <img
+              loading="lazy"
+              src={categ}
+              className="canopolybek"
+              alt="eg"
+            />
+          </NavLink>
+          <NavLink to={PRODUCT_ROUTE}>
+            <img
+              loading="lazy"
+              src={categ}
+              className="canopolybek"
+              alt="eg"
+            />
+          </NavLink>
         </div>
-      </div>
     </>
   )
 }

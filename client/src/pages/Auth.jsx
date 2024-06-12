@@ -1,6 +1,6 @@
 import React, {useContext, useState} from 'react';
 import {NavLink, useLocation, useNavigate} from "react-router-dom";
-import {LOGIN_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE} from "../utils/consts";
+import {INFO_ROUTE, LOGIN_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE} from "../utils/consts";
 import {login} from "../http/userAPI";
 import {registration} from "../http/userAPI";
 import {observer} from "mobx-react-lite";
@@ -16,9 +16,11 @@ function Auth(){
         <div className='rectanglebek' />
         <span className='email-addressbek'>Password*</span>
         <div className='rectangle-2bek' />
+        <NavLink to={INFO_ROUTE}>
         <button className='rectangle-buttonbek'>
           <span className='send-nowbek'>Log In</span>
         </button>
+        </NavLink>
         </form>
         <span className='become-partnerbekhu'>Log In</span>
         <div className='frame-5bek'>

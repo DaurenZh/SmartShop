@@ -137,10 +137,11 @@ body {
   justify-content: flex-start;
 }
 .content-container {
+  padding-left: 40px;
   flex: 1;
   flex-direction: column;
   gap: 24px;
-  max-width: calc(100% - 331px);
+
 }
 .shop-page {
   padding-top: 50px;
